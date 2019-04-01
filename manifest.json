@@ -1,0 +1,25 @@
+{
+  "name": "Scroll Automatico Facebook",
+  "manifest_version": 2,
+  "version": "1.0",
+  "description": "Extensão para rolar a tela facebook no desktop",
+  "author": "Gean Lopes",
+  "permissions":[
+    "tabs",
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_title": "Rolagem automatica do Facebook"
+  },
+  "content_scripts":[
+    {
+      "matches":[
+        "*://*.facebook.com/*"
+      ],
+      "js":[
+        "js/jquery.js",
+        "js/main.js"
+      ]
+    }
+  ]
+}
