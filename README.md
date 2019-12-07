@@ -4,7 +4,7 @@ Como ativar:
 
 1 - Baixe os arquivos ou clone o diretorio. 
 
-1.2 Os arquivos iram vir zipados(Winrar).
+1.2 Os arquivos estaram zipados(Winrar).
 
 1.3 Descompacte ou extraia eles.
 
